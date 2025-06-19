@@ -4,7 +4,6 @@ public class spaces_detector {
         String str1="This String includes  double   and triple   spaces";
         int double_space =str1.indexOf("  ");
         System.out.println(double_space);
-        
         int triple_space =str1.indexOf("   ");
         System.out.println(triple_space);
         
