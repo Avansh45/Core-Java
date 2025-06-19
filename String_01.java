@@ -5,5 +5,6 @@ class String_01{
         System.out.println("original String : "+str);
         str = str.toLowerCase();
         System.out.println("String in Lower Case : "+str);
+        
     }
 }
