@@ -1,3 +1,4 @@
+
 // Java Program to Calculate the Sum of Natural Numbers
 import java.util.Scanner;
 

@@ -1,3 +1,4 @@
+
 // Java Program to Find LCM of two Numbers
 import java.util.Scanner;
 

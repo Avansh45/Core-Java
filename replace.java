@@ -1,3 +1,4 @@
+
 //java program to replace the spaces from the string with underscores
 public class replace {
     public static void main(String[] args) {

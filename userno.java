@@ -1,3 +1,4 @@
+
 //program to get input from user as number
 
 import java.util.Scanner;

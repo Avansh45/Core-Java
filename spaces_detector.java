@@ -1,3 +1,4 @@
+
 //java program to detect the double and triple spaces in the string using indexOFmethod
 public class spaces_detector {
     public static void main(String[] args) {
