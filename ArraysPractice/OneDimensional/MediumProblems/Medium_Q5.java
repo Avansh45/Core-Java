@@ -7,13 +7,19 @@ public class Medium_Q5 {
         int target=11,a=0,b=0;
         boolean found =false;
         for(int i=0;i<arr.length-1;i++){
-            if((arr[i]+arr[i+1])==target){
-                a=arr[i];
-                b=arr[i+1];
-                found=true;
+            for(int j=i+1;j<arr.length;j++){
+                if((arr[i]+arr[j])==target){
+                    a=arr[i];
+                    b=arr[j];
+                    found=true;
+                    break;
+                }
+            }
+            if(found){
                 break;
             }
         }
+            
         if(found){
             System.out.println("Two Numbers are "+a+" and "+b);
         }
