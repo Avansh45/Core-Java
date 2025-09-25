@@ -19,13 +19,8 @@ public class DecimalToBinary {
         }
         System.out.print("\nBinary Number: ");
         int k=1;
-        for (int i=0;i<count;i++) {
-            int temp=arr[j];
-            arr[j]=arr[count-k];
-            arr[count-k]=temp;
-            System.out.print(arr[j]+" ");
-            k++;
-
+        for (int i=count-1;i>=0;i--) {
+            System.out.print(arr[i]);
         }
             
             
