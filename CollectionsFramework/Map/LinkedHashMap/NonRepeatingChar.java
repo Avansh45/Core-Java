@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.HashMap;
 
 // Find the first non-repeating character in a string
-public class NonRepratingChar {
+public class NonRepeatingChar {
     public static void main(String[] args) {
 
         Scanner s = new Scanner(System.in);
