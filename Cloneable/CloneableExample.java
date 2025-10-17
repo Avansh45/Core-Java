@@ -3,11 +3,11 @@ public class CloneableExample {
     public static void main(String[] args) throws CloneNotSupportedException {
         Engine newengine = new Engine("V8", "Electric");
 
-        Car car = new Car(2025, "Own Brand", newengine);
+        Car1 car = new Car1(2025, "Own Brand", newengine);
         System.out.println("Old car Engine Type : " + car.engine.type);
 
         // Clone Car
-        Car newcar = (Car) car.clone();
+        Car1 newcar = (Car1) car.clone();
         newcar.brand = "Friend's Brand";
         newcar.engine.type = "Diesel";
         newcar.engine.name = "32B";
