@@ -13,8 +13,10 @@ class swap{
 
         System.out.println("Before Swapping.... Ist Number is "+input1+" and 2nd number is "+input2+".\n");
 
+        int temp=input1;
         input1= input2;
-        input2=input1;
+        input2 = temp;
+
 
         System.out.println("After Swapping.... Ist Number is "+input1+" and 2nd number is "+input2+".");
         sc.close();
