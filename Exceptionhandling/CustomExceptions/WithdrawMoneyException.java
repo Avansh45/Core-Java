@@ -2,7 +2,6 @@ package Exceptionhandling.CustomExceptions;
 
 import java.util.Scanner;
 
-import javax.swing.plaf.synth.SynthStyleFactory;
 
 // Create a BankAccount class with balance and a method withdraw(double amount).
 // Throw a custom exception InsufficientBalanceException if amount > balance.
